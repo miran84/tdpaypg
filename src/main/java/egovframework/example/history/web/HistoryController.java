@@ -106,6 +106,7 @@ public class HistoryController {
 	public String history_all_data(HistoryDefaultVO searchHistoryVO, HttpSession session, Model model) throws IOException, SQLException {
 		
 		if(searchHistoryVO.getView_type().equals("L")) {
+			
 
 			searchHistoryVO = (HistoryDefaultVO) session.getAttribute("searchHistoryVO");
 
