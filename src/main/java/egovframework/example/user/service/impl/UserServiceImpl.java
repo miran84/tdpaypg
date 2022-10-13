@@ -146,7 +146,7 @@ public class UserServiceImpl extends EgovAbstractServiceImpl implements UserServ
 	
 	@Override
 	public void keepLogin(String userId, String sessionId, Date sessionLimit) throws IOException, SQLException{
-		
+		 
 		Map<String, Object> params = new HashMap<String, Object>(); 
 		params.put("userId", userId); 
 		params.put("sessionId", sessionId); 
