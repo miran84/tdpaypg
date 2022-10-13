@@ -161,6 +161,7 @@ public class UserServiceImpl extends EgovAbstractServiceImpl implements UserServ
 		Map<String, Object> params = new HashMap<String, Object>(); 
 		params.put("value", value); 
 		
+		
 		return userDAO.checkUserWithSessionKey(params);
 	}
 	
