@@ -62,7 +62,7 @@ public class Manage2ServiceImpl extends EgovAbstractServiceImpl implements Manag
 
 	/** SampleDAO */
 	// TODO mybatis 사용
-	@Resource(name="manage2Mapper")
+	@Resource(name="manage2Mapper") 
 	private Manage2Mapper manage2DAO;
 
 	/** ID Generation */
